@@ -1,7 +1,7 @@
 from Classes.conexao import MsgRequest
 
 
-def run():
+def run() -> None:
 	bot = MsgRequest()
 	
 	bot.conectar()
