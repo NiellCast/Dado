@@ -33,7 +33,7 @@ class Envio:
 	def enviar_dica(self, id_do_usuario: str):
 		"""
 		:param id_do_usuario: Recebe o id do usuário do Telegram.
-		:return: Envia uma mensagem contendo uma dica de como iniciar o bot.
+		:return: Envia uma mensagem contendo o comando de como iniciar o bot.
 		"""
 		
 		self.__bot.sendMessage(id_do_usuario, 'Envie "J" para jogar o dado!')
