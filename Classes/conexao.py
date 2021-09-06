@@ -18,7 +18,7 @@ class MsgRequest:
 		
 	def mensagens(self, msg: int or slice) -> None:
 		"""
-		:param msg: Recebe o que o usuário digitou e se a mensagem estiver entre as esperadasm, sorteia um número.
+		:param msg: Recebe o que o usuário digitou e se a mensagem estiver entre as esperadas, sorteia um número.
 		:return: Envia uuma imagem com o número sorteado para o usuário.
 		"""
 		
