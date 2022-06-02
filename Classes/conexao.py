@@ -4,7 +4,7 @@ from time import sleep
 from dotenv import load_dotenv
 from Classes.mensagens import Gerenciamento
 from Classes.enviar_mensagem import Envio
-from Classes.dado import Dado
+from src.gerador_de_numeros.dado import Dado
 
 
 class MsgRequest:
@@ -27,7 +27,7 @@ class MsgRequest:
 		if not msg['from']['is_bot']:  # Verifica se o usuário não é um robô.
 			if self.__gerenciamento.validar(msg['text'].upper()):
 				self.__mensagem.enviar_texto(id_do_usuario, self.__gerenciamento.mensagens(0))
-				self.__mensagem.enviar_photo(id_do_usuario, self.num.sortear())
+				self.__mensagem.enviar_photo(id_do_usuario, self.num.sortear_numero())
 				sleep(0.5)
 				self.__mensagem.enviar_texto(id_do_usuario, self.__gerenciamento.mensagens(1))
 			
