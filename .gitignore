@@ -1,1 +1,16 @@
 .env
+config/__pycache__/__init__.cpython-310.pyc
+config/__pycache__/configuracao.cpython-310.pyc
+sorteio/__pycache__/__init__.cpython-310.pyc
+sorteio/__pycache__/sortear_numeros.cpython-310.pyc
+widgets/__pycache__/__init__.cpython-310.pyc
+widgets/button/__pycache__/__init__.cpython-310.pyc
+widgets/button/__pycache__/create_button.cpython-310.pyc
+widgets/header/__pycache__/__init__.cpython-310.pyc
+widgets/header/__pycache__/create_header.cpython-310.pyc
+widgets/loading/__pycache__/__init__.cpython-310.pyc
+widgets/loading/__pycache__/loading.cpython-310.pyc
+widgets/metrics/__pycache__/__init__.cpython-310.pyc
+widgets/metrics/__pycache__/create_metrics.cpython-310.pyc
+widgets/radio_button/__pycache__/__init__.cpython-310.pyc
+widgets/radio_button/__pycache__/create_radio_button.cpython-310.pyc
