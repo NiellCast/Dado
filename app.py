@@ -16,9 +16,8 @@ def run() -> None:
 	def responder_adm(mensagem) -> None:
 		"""
 		:param mensagem: Recebe a mensagem enviada pelo aplicativo.
-		:return: Retorna quantas vezes o bot foi utilizado.
+		:return: Retorna o histórico de quem (nome de usuário) usou o bot.
 		"""
-		print(mensagem.from_user.first_name)
 		print(mensagem.from_user.username)
 
 	@bot.message_handler(commands=['start', 'jogar'])
