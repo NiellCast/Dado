@@ -7,8 +7,8 @@ from typing import List
 class Conector:
     load_dotenv()
 
-    def __init__(self, db: str) -> None:
-        self.__conexao = connect(db, check_same_thread=False)
+    def __init__(self) -> None:
+        self.__conexao = connect(getenv("DATABASE_NAME"), check_same_thread=False)
         self.__cursor = self.__conexao.cursor()
 
     def create(self, username: str) -> None:
